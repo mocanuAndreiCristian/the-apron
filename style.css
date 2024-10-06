@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-size: 100%;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: hidden;
+}
+
+*::selection {
+    background-color: #956723;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.no-list-style {
+    list-style: none;
+}
+
+/* slide 1 */
+
+#slide1 {
+    position: absolute;
+    top: 0;
+    background-color: #ffc66f;
+    height: 100vh;
+    width: 100vw;
+}
+
+#slide1 > ul {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#title {
+    margin-top: 30vh;
+    font-size: 4em;
+    text-align: center;
+}
+
+#team {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#chef1 {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#chef2 {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    image-orientation: flip;
+}
+
+/* slide 2 */
+
+#slide2 {
+    position: absolute;
+    top: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 12em;
+    padding-bottom: 8em;
+    background-color: #ffc66f;
+}
+
+#title-bar1 {
+    position: absolute;
+    top: 0;
+    height: 10em;
+    width: 100vw;
+    background-image: url(img/old-landscape.jpg);
+}
+
+#title-bar1 > h1 {
+    color: #ffc66f;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+#text-container1 {
+    width: 40vw;
+    margin-inline: auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#ancient {
+    position: absolute;
+    top: 25vh;
+    left: 7.5vw;
+    height: 20em;
+}
+
+#man {
+    position: absolute;
+    top: 50vh;
+    right: 7.5vw;
+}
+
+#early19 {
+    position: absolute;
+    top: 75vh;
+    left: 7.5vw;
+}
+
+#y1840 {
+    position: absolute;
+    top: 100vh;
+    right: 7.5vw;
+}
+
+#y1890 {
+    position: absolute;
+    top: 125vh;
+    left: 7.5vw;
+}
+
+#y1950 {
+    position: absolute;
+    top: 150vh;
+    right: 7.5vw;
+    height: 20em;
+}
+
+#modern {
+    position: absolute;
+    bottom: 0;
+    left: 7.5vw;
+    height: 30em;
+}
