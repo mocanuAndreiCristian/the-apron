@@ -49,6 +49,7 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
+    transition: 0.3s;
 }
 
 #chef2 {
@@ -56,7 +57,12 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    image-orientation: flip;
+    transition: 0.3s;
+}
+
+#chef1:hover,
+#chef2:hover {
+    opacity: 0.25;
 }
 
 /* slide 2 */
@@ -148,7 +154,7 @@ h1 {
 #slide3 {
     position: absolute;
     top: 250vh;
-    min-height: 200vh;
+    min-height: 150vh;
     width: 100vw;
     padding-top: 12em;
     padding-bottom: 8em;
@@ -212,4 +218,11 @@ h1 {
     top: 110vh;
     left: 5vw;
     height: 20em;
+}
+
+#table {
+    display: block;
+    margin: auto;
+    height: 50vh;
+    transform: translateY(10vh);
 }
