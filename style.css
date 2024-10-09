@@ -21,6 +21,10 @@ h1 {
 /* slide 1 */
 
 #slide1 {
+    background-image: url(img/grass.png);
+    background-size: 20vh;
+    background-repeat: repeat-x;
+    background-position-y: bottom;
     position: absolute;
     top: 0;
     background-color: #ffc66f;
@@ -45,17 +49,17 @@ h1 {
 }
 
 #chef1 {
-    height: 100vh;
+    height: 55vh;
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     transition: 0.3s;
 }
 
 #chef2 {
-    height: 100vh;
+    height: 60vh;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     transition: 0.3s;
 }
@@ -235,7 +239,7 @@ h1 {
 #slide4 {
     position: absolute;
     top: 575vh;
-    min-height: 175vh;
+    min-height: 125vh;
     width: 100vw;
     padding-top: 12em;
     padding-bottom: 8em;
@@ -272,47 +276,48 @@ h1 {
     position: absolute;
     top: 20vh;
     left: 5vw;
-    height: 15em;
+    height: 10em;
 }
 
 #tailor-tools {
     position: absolute;
-    top: 40vh;
+    top: 30vh;
     right: 5vw;
-    height: 20em;
-}
-
-#tehnician {
-    position: absolute;
-    top: 60vh;
-    left: 5vw;
     height: 15em;
 }
 
 #finish {
     position: absolute;
-    top: 90vh;
-    right: 5vw;
-    height: 15em;
+    top: 50vh;
+    left: 5vw;
+    height: 10em;
 }
 
 #quality {
     position: absolute;
-    top: 110vh;
-    left: 5vw;
+    top: 75vh;
+    right: 5vw;
     height: 10em;
 }
 
 #package {
     position: absolute;
-    top: 130vh;
-    right: 10vw;
+    top: 75vh;
+    left: 5vw;
     height: 10em;
 }
 
-#marketing {
+#money {
     position: absolute;
-    top: 150vh;
-    left: 5vw;
-    height: 15em;
+    top: 110vh;
+    right: 0;
+    height: 12em;
+}
+
+#money2 {
+    position: absolute;
+    top: 110vh;
+    left: 0;
+    height: 12em;
+    transform: scaleX(-1);
 }
